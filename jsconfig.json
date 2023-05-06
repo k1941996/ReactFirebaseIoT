@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "skipLibCheck": true,
+    "target": "ES6",
+    "module": "commonjs",
+    "jsx": "react",
+    "noEmit": true /* Do not emit outputs. */,
+    "downlevelIteration": true,
+    "baseUrl": "./src",
+    "paths": {
+      "#components/*": ["./components/*"],
+      "#routes/*": ["./routes/*"],
+      "#pages/*": ["./pages/*"],
+      "#assets/*": ["./assets/*"],
+      "#config/*": ["./config/*"],
+      "#context/*": ["./context/*"],      
+    },
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true /* Disallow inconsistently-cased references to the same file. */
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
+}
